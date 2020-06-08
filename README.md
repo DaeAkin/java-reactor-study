@@ -10,6 +10,14 @@ Reactor는 마이크로서비스 아키텍처, Reactor Netty 등 HTTP , TCP UDP�
 
 Reactor는 Java 8 이상을 지원합니다.
 
+## 🤗 왜 사용해야 할까?
+
+Reactir 프로그래밍은 비동기 처리 파이프라인을 만들기 위해 선언적 코드를 사용하는 새로운 패러다임 입니다.(functional 프로그래밍이랑 비슷한 방식) , 또한 이벤트 기반 모델을 사용하여 소비자(comsumer)가 데이터를 받을 준비가 되면, 데이터를 소비자에게 보내줍니다.
+
+이러한 이벤트 기반 모델 로우레벨의 병행(concurrency) / 동시성(parallelized) 코드를 작성하지 않아도 은 자원의 효율성을 증가시키며, 클아이언트의 수가 많아져도 무리가 없다는~
+
+
+
 ### Why
 
 Reactive Programming is a new paradigm in which you use *declarative code* (in a manner that is similar to *functional programming*) in order to build asynchronous processing pipelines. It is an event-based model where data is pushed to the consumer, as it becomes available: we deal with asynchronous sequences of events.
@@ -35,3 +43,5 @@ From a user perspective however, it is fairly low-level. Reactor 3 aims at offer
 ## 참고자료
 
 https://projectreactor.io/docs/core/release/reference/
+
+https://tech.io/playgrounds/929/reactive-programming-with-reactor-3/Intro
